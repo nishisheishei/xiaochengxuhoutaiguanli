@@ -2,7 +2,8 @@ import axios from  'axios'
 
 // 基准路径
 const request = axios.create({
-    baseURL: 'http://127.0.0.1:8083'
+    // baseURL: 'http://192.168.123.124:8083'
+    baseURL: 'http://localhost:8083'
 })
 
 // 请求拦截器

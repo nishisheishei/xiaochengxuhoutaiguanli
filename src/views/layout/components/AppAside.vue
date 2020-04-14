@@ -31,12 +31,12 @@
 
       <el-menu-item index="/">
         <i class="el-icon-video-camera-solid"></i>
-        <span slot="title">视频处理</span>
+        <span slot="title">视频管理</span>
       </el-menu-item>
 
       <el-menu-item index="/classify">
         <i class="el-icon-menu"></i>
-        <span slot="title">添加数据</span>
+        <span slot="title">类型管理</span>
       </el-menu-item>
       <!-- <el-menu-item index="/increase">
         <i class="el-icon-menu"></i>
@@ -44,7 +44,7 @@
       </el-menu-item> -->
       <el-menu-item index="/contacts">
         <i class="el-icon-phone"></i>
-        <span slot="title">联系人处理</span>
+        <span slot="title">联系人管理</span>
       </el-menu-item>
     </el-menu>
   </div>

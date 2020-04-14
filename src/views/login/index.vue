@@ -9,7 +9,7 @@
           <el-input class="input-prop" v-model="ruleForm.userName" placeholder="请输入用户名"></el-input>
         </el-form-item>
         <el-form-item prop="password">
-          <el-input class="input-prop" v-model="ruleForm.password" placeholder="请输入密码"></el-input>
+          <el-input class="input-prop" show-password v-model="ruleForm.password" placeholder="请输入密码"></el-input>
         </el-form-item>
         <!-- <el-form-item prop="checked">
           <el-checkbox v-model="ruleForm.checked"></el-checkbox>
